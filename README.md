@@ -1,0 +1,1 @@
+This is a repository where I update my notes and codes of [Zero-to-Hero](https://karpathy.ai/zero-to-hero.html).
