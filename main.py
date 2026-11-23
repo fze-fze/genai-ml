@@ -1,5 +1,11 @@
-import os, genai_ml
+import math
+import numpy as np
+import matplotlib.pyplot as plt
 
-if __name__ == "__main__":
-    print(os.cpu_count())
-    genai_ml.main()
+def f(x):
+    return x**2 + 2*x + 1
+
+xs = np.arange(-5, 5, 0.125)
+ys = f(xs)
+plt.plot(xs, ys)
+plt.show()
